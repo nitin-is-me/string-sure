@@ -1,0 +1,17 @@
+{
+  "name": "string-sure",
+  "version": "1.0.6",
+  "main": "validator.js",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "validator",
+    "string",
+    "email"
+  ],
+  "author": "Nitin",
+  "license": "ISC",
+  "description": "A simple string validator for Node.js"
+}
