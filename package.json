@@ -1,6 +1,6 @@
 {
   "name": "string-sure",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "main": "validator.js",
   "scripts": {
     "build": "tsc",
@@ -13,5 +13,9 @@
   ],
   "author": "Nitin",
   "license": "ISC",
-  "description": "A simple string validator for Node.js"
+  "description": "A simple string validator for Node.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nitin-is-me/string-sure.git"
+  }
 }

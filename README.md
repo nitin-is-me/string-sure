@@ -22,7 +22,9 @@ const { Validator } = require("string-sure");
 To validate an email address, use the `validateEmail` method:
 ```
 const isValidEmail = Validator.validateEmail('example@example.com');
-console.log(isValidEmail); // true or false
+const isValidEmail2 = Validator.validateEmail('example#example_npm.com');
+console.log(isValidEmail); // true
+console.log(isValidEmail2); //false
 ```
 
 ### String Validation
